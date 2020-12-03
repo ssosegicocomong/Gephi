@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "유지원"
+  },
+  "text": {
+    "more": "\u003cp\u003e\n방향: 없음\n\u003c/p\u003e\n\n\u003cp\u003e\n작품노드 크기: 관객 수에 따른 크기로 크기가 클수록 관객 수가 많다. \n\u003c/p\u003e\n\n\u003cp\u003e\n장르노드 크기: 해당 장르의 작품 수에 따른 크기로 크기가 클수록 작품이 많다.\n\u003c/p\u003e\n\n\n\u003cp\u003e\n노드 색상: 장르에 따른 색상 (*장르혼합시에 같은색상으로 나타남)\n\u003c/p\u003e\n\n",
+    "intro": "2017년 한국 영화 흥행 1~100위 까지의 작품과 작품의 해당하는 장르를 시각화했습니다.\n",
+    "title": "장르와 작품의 관계 시각화"
+  },
+  "legend": {
+    "edgeLabel": "장르와 작품의 관계",
+    "colorLabel": "각 장르에 따른 색상",
+    "nodeLabel": "장르, 작품"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
